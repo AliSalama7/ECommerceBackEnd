@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Projects\\Ecommerce\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{BF0C0205-D59C-4BAB-A916-BB12277E609D}|Core\\Core.csproj|c:\\projects\\ecommerce\\core\\specifications\\productwithfiltersforcountspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF0C0205-D59C-4BAB-A916-BB12277E609D}|Core\\Core.csproj|solutionrelative:core\\specifications\\productwithfiltersforcountspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF0C0205-D59C-4BAB-A916-BB12277E609D}|Core\\Core.csproj|c:\\projects\\ecommerce\\core\\specifications\\productwithtypesandbrandsspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF0C0205-D59C-4BAB-A916-BB12277E609D}|Core\\Core.csproj|solutionrelative:core\\specifications\\productwithtypesandbrandsspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,34 +9,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductWithFiltersForCountSpecification.cs",
-              "DocumentMoniker": "C:\\Projects\\Ecommerce\\Core\\Specifications\\ProductWithFiltersForCountSpecification.cs",
-              "RelativeDocumentMoniker": "Core\\Specifications\\ProductWithFiltersForCountSpecification.cs",
-              "ToolTip": "C:\\Projects\\Ecommerce\\Core\\Specifications\\ProductWithFiltersForCountSpecification.cs",
-              "RelativeToolTip": "Core\\Specifications\\ProductWithFiltersForCountSpecification.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T14:13:42.042Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductWithTypesAndBrandsSpecification.cs",
-              "DocumentMoniker": "C:\\Projects\\Ecommerce\\Core\\Specifications\\ProductWithTypesAndBrandsSpecification.cs",
-              "RelativeDocumentMoniker": "Core\\Specifications\\ProductWithTypesAndBrandsSpecification.cs",
-              "ToolTip": "C:\\Projects\\Ecommerce\\Core\\Specifications\\ProductWithTypesAndBrandsSpecification.cs*",
-              "RelativeToolTip": "Core\\Specifications\\ProductWithTypesAndBrandsSpecification.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T14:10:28.877Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
