@@ -2,7 +2,7 @@
 
 namespace Core.Specifications
 {
-    public class Specification<T> : ISpecification<T>
+    public class Specification<T> : ISpecifications<T>
     {
         public Specification()
         {

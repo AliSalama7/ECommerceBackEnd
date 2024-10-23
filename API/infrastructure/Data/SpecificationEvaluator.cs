@@ -5,7 +5,7 @@ namespace Infrastructure.Data
 {
     public class SpecificationEvaluator<T> where T : class
     {
-        public static IQueryable<T> GetQuery(IQueryable<T> inputQuery , ISpecification<T> spec) 
+        public static IQueryable<T> GetQuery(IQueryable<T> inputQuery , ISpecifications<T> spec) 
         {
             var query = inputQuery;
             if (spec.Criteria != null)

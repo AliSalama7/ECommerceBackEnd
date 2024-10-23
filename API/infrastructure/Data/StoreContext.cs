@@ -1,7 +1,7 @@
 ﻿using Core.Models;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.Reflection;
+using Core.Models.OrderAggregate;
 
 namespace Infrastructure.Data
 {
@@ -9,11 +9,15 @@ namespace Infrastructure.Data
     {
         public StoreContext(DbContextOptions<StoreContext> options) : base(options)
         {
-            
+
         }
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductBrand> productBrands { get; set; }
         public DbSet<ProductType> ProductTypes { get; set; }
+        public DbSet<Order> Orders {  get; set; }
+        public DbSet<OrderItem> OrderItems { get; set; }
+        public DbSet<DeliveryMethod> DeliveryMethods { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);

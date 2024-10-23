@@ -1,4 +1,5 @@
-﻿using Core.Specifications;
+﻿using Core.Models.OrderAggregate;
+using Core.Specifications;
 
 namespace Core.Interfaces
 {
@@ -6,8 +7,11 @@ namespace Core.Interfaces
     {
         Task<List<T>> GetAllAsync();
         Task<T> GetByIdAsync(int id);
-        Task<T> GetBySpecAsync(ISpecification<T> spec);
-        Task<IReadOnlyList<T>> GetWithIncludesAsync(ISpecification<T> spec);
-        Task <int > CountAsync(ISpecification<T> spec);
+        Task<T> GetBySpecAsync(ISpecifications<T> spec);
+        Task<IReadOnlyList<T>> GetWithIncludesAsync(ISpecifications<T> spec);
+        Task <int > CountAsync(ISpecifications<T> spec);
+        void Add(T item);
+        void Remove(T item);
+        void Update(T item);
     }
 }
